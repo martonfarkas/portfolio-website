@@ -52,6 +52,10 @@ nav a:hover {
     animation: fadeIn 8s;
 }
 
+a[href^="mailto"] img[alt="email icon"] {
+    filter: brightness(0) invert(1);
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -87,7 +91,7 @@ nav a:hover {
 
 .content {
     display: none;
-    transition: 0.5s linear;
+    transition: 0.3s linear;
 }
 
 label {
@@ -138,7 +142,14 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 8rem;
+    padding: 10rem;
+
+    background-image: url('img/comp7.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; 
+    color: white;
 }
 
 .headshot-container {
@@ -154,7 +165,7 @@ a {
 }
 
 span {
-    color:#a81308;
+    color: #FFA500;
     font-weight: bold;
 }
 

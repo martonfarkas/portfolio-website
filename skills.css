@@ -59,6 +59,13 @@ nav a:hover {
     flex-direction: column;
     text-align: center;
     padding: 8rem;
+   
+    background-image: url('img/comp6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; 
+    color: white;
 }
 
 .skills-container {
@@ -101,7 +108,7 @@ a {
 }
 
 span {
-    color: #a81308;
+    color: #FFA500;
 }
 
 .skills-card a:hover {
